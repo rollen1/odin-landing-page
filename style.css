@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    color: #FFF;
+    color: #fcfbfe;
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    background-color: #054569;
+    background-color: #0c164f;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,7 +37,7 @@ header nav a {
 }
 
 .awesome-container {
-    background-color: #062c43;
+    background-color: #0c164f;
     padding: 64px 200px;
     display: flex;
     justify-content: center;
@@ -64,7 +64,7 @@ header nav a {
 
 .awesome-signup button {
     padding: 8px 32px;
-    background-color: #3882F6;
+    background-color: #5643fd;
     border-radius: 8px;
 }
 
@@ -74,6 +74,7 @@ header nav a {
 }
 
 .information-container {
+    background-color: #fcfbfe;
     padding: 32px 200px 64px;
     display: flex;
     justify-content: space-evenly;
@@ -114,12 +115,12 @@ header nav a {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border: 5px #3882F6 solid;
+    border: 5px gainsboro solid;
     border-radius: 10%;
 }
 
 .quote-container {
-    background-color: #ced7e0;
+    background-color: gainsboro;
     color: #1F2937;
     font-weight: 400;
     display: flex;
@@ -143,6 +144,7 @@ header nav a {
 }
 
 .signup-container {
+    background-color: #fcfbfe;
     padding: 64px 200px;
     display: flex;
     justify-content: center;
@@ -152,7 +154,7 @@ header nav a {
 .signup-card {
     padding: 48px 128px;
     border-radius: 8px;
-    background-color: #3882F6;
+    background-color: #5643fd;
     display: flex;
     justify-content: space-between;
     text-align: left;
@@ -182,7 +184,7 @@ header nav a {
 footer {
     font-weight: 400;
     font-size: 18px;
-    background-color: #054569;
+    background-color: #0c164f;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -191,6 +193,17 @@ footer {
     padding: 16px 200px;
 }
 
-button:hover, a:hover {
+button:hover, header a:hover, .quote a:hover {
+    cursor: pointer;
     opacity: 0.7;
+    transition: 0.3s;
+}
+
+img:hover {
+    filter: brightness(150%);
+    transition: 0.5s;
+}
+
+button:active {
+    background-color: #7649fe;
 }
