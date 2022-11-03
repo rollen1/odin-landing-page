@@ -3,7 +3,7 @@
 
   &#xa0;
 
-  <!-- <a href="https://odinlandingpage.netlify.app">Demo</a> -->
+  <a href="https://rollen1.github.io/odin-landing-page">Demo</a>
 </div>
 
 <h1 align="center">Odin Landing Page</h1>
