@@ -50,9 +50,9 @@ Simple landing page design.
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Semantic HTML
-:heavy_check_mark: Semantic CSS
-:heavy_check_mark: Lightweight
+:heavy_check_mark: Semantic HTML;
+:heavy_check_mark: Semantic CSS;
+:heavy_check_mark: Lightweight;
 
 ## :rocket: Technologies ##
 
