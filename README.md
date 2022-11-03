@@ -46,6 +46,8 @@
 
 ## :dart: About ##
 
+[Odin Project link](https://www.theodinproject.com/lessons/foundations-landing-page)
+
 Simple landing page design. 
 
 ## :sparkles: Features ##
